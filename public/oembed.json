@@ -2,7 +2,7 @@
   "version": "1.0",
   "type": "link",
   "title": "SwiftSpace",
-  "author_url": "https://raw.githubusercontent.com/night0721/SwiftSpace/master/assets/icon-192x192.png",
+  "author_url": "https://raw.githubusercontent.com/night0721/SwiftSpace/main/public/icon-192x192.png",
   "provider_name": "SwiftSpace",
   "provider_url": "https://github.com/night0721/SwiftSpace"
 }

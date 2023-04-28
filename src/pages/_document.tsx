@@ -23,7 +23,7 @@ export default function Document() {
         />
         <meta
           itemProp="image"
-          content="https://raw.githubusercontent.com/night0721/SwiftSpace/master/assets/icon-192x192.png"
+          content="https://raw.githubusercontent.com/night0721/SwiftSpace/main/public/icon-192x192.png"
         />
         <meta name="application-name" content="SwiftSpace" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -50,7 +50,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://raw.githubusercontent.com/night0721/SwiftSpace/master/assets/icon-192x192.png"
+          content="https://raw.githubusercontent.com/night0721/SwiftSpace/main/public/icon-192x192.png"
         />{" "}
         <meta name="twitter:creator" content="night0721" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -62,15 +62,15 @@ export default function Document() {
         />
         <meta
           name="twitter:image"
-          content="https://raw.githubusercontent.com/night0721/SwiftSpace/master/assets/icon-192x192.png"
+          content="https://raw.githubusercontent.com/night0721/SwiftSpace/main/public/icon-192x192.png"
         />
         <meta
           name="twitter:image:src"
-          content="https://raw.githubusercontent.com/night0721/SwiftSpace/master/assets/icon-192x192.png"
+          content="https://raw.githubusercontent.com/night0721/SwiftSpace/main/public/icon-192x192.png"
         />
         <meta content="video.other" property="og:type" />
         <meta content="image/gif" property="og:image:type" />
-        <link type="application/json+oembed" href="assets/oembed.json" />
+        <link type="application/json+oembed" href="/oembed.json" />
       </Head>
       <body>
         <Main />
