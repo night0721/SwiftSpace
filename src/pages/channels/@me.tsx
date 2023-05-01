@@ -52,7 +52,7 @@ export default function Me() {
     );
   };
   return (
-    <div className="bg-gray-900 h-screen flex flex-col">
+    <div className="h-screen flex flex-col">
       {/* <div className="flex bg-white drop-shadow-md rounded-lg p-1.5">
         <img
           className="w-28 h-28 rounded-full border-4 border-red-500 object-cover"
