@@ -28,13 +28,13 @@ const UserDetailsBox = ({ avatar, username }: UserProps) => {
           </h2>
         </div>
         <button
-          className="bg-stone-600 rounded-full"
+          className="rounded-full w-6 bg-red-600"
           onClick={handleSettingsClick}
         >
           <RiSettings5Fill
             style={{
               color: "blue",
-              fontSize: "1.5em",
+              fontSize: "3em",
             }}
           />
         </button>
