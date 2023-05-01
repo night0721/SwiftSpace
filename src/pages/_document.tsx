@@ -10,7 +10,7 @@ export default function Document() {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="title" content="SwiftSpace" />
-        <meta name="theme-color" content="#deb4d1" data-react-helmet="true" />
+        <meta name="theme-color" content="#0c4a6e" data-react-helmet="true" />
         <meta name="msapplication-TileColor" content="#9e85ff" />
         <meta name="description" content="SwiftSpace" />
         <meta name="keywords" content="chat, app, pwa, friends, space" />
