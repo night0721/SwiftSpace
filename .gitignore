@@ -8,6 +8,7 @@ package-lock.json
 
 # testing
 /coverage
+/test
 
 # next.js
 /.next/
@@ -40,4 +41,3 @@ next-env.d.ts
 public/service-worker.js.*
 workbox-*.js
 workbox-*.js.map
-
