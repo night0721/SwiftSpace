@@ -2,8 +2,7 @@ import MessageBar from "@/components/MessageBar";
 import MessageBox from "@/components/MessageBox";
 import UserDetailsBox from "@/components/UserDetailsBox";
 import Message from "@/types/Message";
-import React, { useState, useCallback, useEffect, useRef } from "react";
-import fetch from "node-fetch";
+import React, { useState, useEffect, useRef } from "react";
 
 interface Key {
   key: string;

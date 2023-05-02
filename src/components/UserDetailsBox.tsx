@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
-import React, { useEffect } from "react";
 import { RiSettings5Fill } from "react-icons/ri";
+import StatusCircle from "./StatusCircle";
 
 interface UserProps {
   avatar: string;
@@ -26,6 +26,7 @@ const UserDetailsBox = ({ avatar, username }: UserProps) => {
           <h2 className="text-xl font-semibold font-mono text-blue-200">
             {username}
           </h2>
+          <StatusCircle status="dnd" />
         </div>
         <button
           className="rounded-full w-6 bg-red-600"
