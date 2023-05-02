@@ -7,7 +7,7 @@ import { MdLockOutline } from "react-icons/md";
 export default function Home() {
   return (
     <div
-      className="flex flex-col items-center justify-center min-h-screen py-2 bg-center  bg-cover"
+      className="flex flex-col items-center justify-center min-h-screen bg-center bg-cover"
       style={{ backgroundImage: `url("/background.png")` }}
     >
       <Head>
@@ -16,9 +16,9 @@ export default function Home() {
         <link rel="icon" href="/icon.png" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center h-full">
-        <div className="bg-sky-200 rounded-2xl shadow-2xl flex w-2/3 max-w-4xl">
-          <div className="w-3/5 p-4">
+      <main className="flex flex-col items-center justify-center w-full max-w-2xl lex-1 p-4 text-center h-full">
+        <div className="bg-sky-200 rounded-2xl shadow-2xl flex w-full">
+          <div className="w-full">
             <span className="font-bold text-3xl text-start font-mono bg-clip-text text-transparent bg-gradient-to-r from-violet-500 via-red-400 to-teal-400 animate-text">
               SwiftSpace
             </span>
