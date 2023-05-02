@@ -1,7 +1,7 @@
 interface Status {
   status: "online" | "offline" | "idle" | "dnd";
 }
-const StatusCircle = ({ status }: Status) => {
+export const StatusCircle = ({ status }: Status) => {
   return (
     <>
       <div className="flex items-center justify-center">
@@ -22,5 +22,3 @@ const StatusCircle = ({ status }: Status) => {
     </>
   );
 };
-
-export default StatusCircle;
