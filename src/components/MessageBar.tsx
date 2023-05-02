@@ -4,7 +4,7 @@ type Props = {
   onSendMessage: (message: string) => void;
 };
 
-const MessageBar = ({ onSendMessage }: Props) => {
+export const MessageBar = ({ onSendMessage }: Props) => {
   const [message, setMessage] = useState("");
 
   const handleMessageChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -37,5 +37,3 @@ const MessageBar = ({ onSendMessage }: Props) => {
     </div>
   );
 };
-
-export default MessageBar;

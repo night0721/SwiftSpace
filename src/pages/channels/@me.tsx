@@ -1,7 +1,7 @@
-import MessageBar from "@/components/MessageBar";
-import MessageBox from "@/components/MessageBox";
-import UserDetailsBox from "@/components/UserDetailsBox";
-import Message from "@/types/Message";
+import {MessageBar} from "@/components/MessageBar";
+import {MessageBox} from "@/components/MessageBox";
+import {UserDetailsBox} from "@/components/UserDetailsBox";
+import {Message} from "@/types/Message";
 import React, { useState, useEffect, useRef } from "react";
 
 interface Key {
