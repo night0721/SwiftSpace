@@ -8,7 +8,15 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta name="viewport" content="width=device-width" />
       </Head>
-      <Component {...pageProps} />
+      <Layout Component={Component} pageProps={pageProps} />
     </>
   );
 }
+
+const Layout = ({ Component, pageProps }) => {
+  if (Component.getLayout) {
+    return Component.getLayout(<Component {...pageProps} />);
+  } else {
+    return <Component {...pageProps} />;
+  }
+};

@@ -1,13 +1,13 @@
 import { useRouter } from "next/router";
 import { RiSettings5Fill } from "react-icons/ri";
-import StatusCircle from "./StatusCircle";
+import { StatusCircle } from "./StatusCircle";
 
-interface UserProps {
+type UserProps = {
   avatar: string;
   username: string;
-}
+};
 
-const UserDetailsBox = ({ avatar, username }: UserProps) => {
+export const UserDetailsBox = ({ avatar, username }: UserProps) => {
   const router = useRouter();
   const handleSettingsClick = () => {
     router.push("/settings");
@@ -43,5 +43,3 @@ const UserDetailsBox = ({ avatar, username }: UserProps) => {
     </div>
   );
 };
-
-export default UserDetailsBox;
