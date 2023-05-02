@@ -1,11 +1,9 @@
-import User from "./User";
+import { User } from "./User";
 
-interface Message {
+export type Message = {
   id: string;
   type: string;
   author: User;
   content: string;
   timestamp: number;
-}
-
-export default Message;
+};
