@@ -13,10 +13,10 @@ export default function App({ Component, pageProps }: AppProps) {
   );
 }
 
-// const Layout = ({ Component, pageProps }: AppProps) => {
-//   if (Component.getLayout) {
-//     return Component.getLayout(<Component {...pageProps} />);
-//   } else {
-//     return <Component {...pageProps} />;
-//   }
-// };
+const Layout = ({ Component, pageProps }: AppProps) => {
+   if (Component.getLayout) {
+     return Component.getLayout(<Component {...pageProps} />);
+   } else {
+     return <Component {...pageProps} />;
+   }
+ };
