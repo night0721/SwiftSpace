@@ -1,19 +1,19 @@
 import "@/styles/globals.css";
 import { AppProps } from "next/app";
 import Head from "next/head";
-
+import { useRouter } from "next/router";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
         <meta name="viewport" content="width=device-width" />
       </Head>
-      <Layout Component={Component} pageProps={pageProps} />
+      <Layout Component={Component} pageProps={pageProps} router=useRouter() />
     </>
   );
 }
 
-const Layout = ({ Component, pageProps }: AppProps) => {
+const Layout = ({ Component, pageProps, router }: AppProps) => {
    if (Component.getLayout) {
      return Component.getLayout(<Component {...pageProps} />);
    } else {
