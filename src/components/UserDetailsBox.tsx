@@ -35,7 +35,7 @@ export const UserDetailsBox = ({ avatar, username }: UserProps) => {
           <RiSettings5Fill
             style={{
               color: "blue",
-              fontSize: "3em",
+              fontSize: "3rem",
             }}
           />
         </button>

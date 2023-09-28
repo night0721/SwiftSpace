@@ -19,29 +19,29 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full max-w-2xl lex-1 p-4 text-center h-full">
         <div className="bg-sky-200 rounded-2xl shadow-2xl flex w-full">
           <div className="w-full">
-            <span className="font-bold text-3xl text-start font-mono bg-clip-text text-transparent bg-gradient-to-r from-violet-500 via-red-400 to-teal-400 animate-text">
+            {/* <span className="font-bold py-8 text-3xl text-start font-mono bg-clip-text text-transparent bg-gradient-to-r from-violet-500 via-red-400 to-teal-400 animate-text">
               SwiftSpace
-            </span>
-            <h2 className="text-2xl mb-2 font-bold text-cyan-700 my-8">
+            </span> */}
+            <h2 className="text-2xl sm:textxl mb-2 font-bold text-cyan-700 my-8">
               Sign in
             </h2>
             <div className="border-2 w-10  border-cyan-700 inline-block mb-2"></div>
             <div className="flex justify-center my-2 gap-2">
               <a href="#" className="border-2 border-gray-200 p-4 rounded-full">
-                <FaInstagram className="text-xl" />
+                <FaInstagram className="text-xl sm:text-lg" />
               </a>
               <a href="#" className="border-2 border-gray-200 p-4 rounded-full">
-                <FcGoogle className="text-xl" />
+                <FcGoogle className="text-xl sm:text-lg" />
               </a>
               <a href="#" className="border-2 border-gray-200 p-4 rounded-full">
-                <SiDiscord className="text-xl" />
+                <SiDiscord className="text-xl sm:text-lg" />
               </a>
             </div>
-            <p className="text-sm mb-2 text-gray-400 my-4">
+            <p className="text-sm mb-2 text-gray-400 my-4 sm:text-xs">
               or use your email account
             </p>
             <div className="flex flex-col items-center">
-              <div className="bg-gray-100 w-64 p-3 flex gap-2 align-center mb-4">
+              <div className="bg-gray-100 w-64 p-3 flex gap-2 align-center mb-4 sm:w-56 sm:h-11">
                 <FaRegEnvelope className="text-gray-400 text-xl" />
                 <input
                   type="email"
@@ -49,7 +49,7 @@ export default function Home() {
                   placeholder="Email"
                 />
               </div>
-              <div className="bg-gray-100 w-64 p-3 flex gap-2 align-center">
+              <div className="bg-gray-100 w-64 p-3 flex gap-2 align-center sm:w-56 sm:h-11">
                 <MdLockOutline className="text-gray-400 text-xl" />
                 <input
                   type="password"
@@ -58,37 +58,42 @@ export default function Home() {
                 />
               </div>
               <div className="flex justify-between w-64 my-2">
-                <label className="text-xs">
+                <label className="text-xs text-gray-500 mx-2">
                   <input
                     type="checkbox"
-                    className="text-sm"
+                    className="text-sm outline-none border-0"
                     placeholder="Password"
                   />{" "}
                   Remember me
                 </label>
-                <a href="#" className="text-xs">
+                <a href="#" className="text-xs text-gray-500">
                   Forgot Password?
                 </a>
               </div>
-              <a
-                href="#"
-                className="border-2 border-cyan-700 text-cyan-700 rounded-full px-10 py-1.5 inline-block mt-2 transition-all hover:bg-cyan-700 hover:text-white"
-              >
-                Sign In
-              </a>
+              <div className="my-2">
+                <a
+                  href="#"
+                  className="border-2 border-cyan-700 text-cyan-700 rounded-full px-5 py-1 inline-block mt-2 transition-all hover:bg-cyan-700 hover:text-white"
+                >
+                  Sign In
+                </a>
+              </div>
             </div>
           </div>
-          <div className="w-2/5 p-5 bg-sky-900 text-sky-200 rounded-tr-2xl rounded-br-2xl py-36 px-12">
-            <h2 className="text-lg mb-2 font-bold">
+          <div className="w-full p-5 bg-sky-900 text-sky-200 rounded-tr-2xl rounded-br-2xl py-36 ">
+            <h2 className="text-xl mb-2 font-bold sm:text-base">
               Welcome to the community!
             </h2>
             <div className="border-2 w-10  border-sky-200 inline-block mb-2"></div>
-            <p className="text-sm mb-2 text-sky-200">
-              Don't have an account? Sign up now and get started!
+            <p className="text-sm mb-2 text-sky-200 sm:text-xs">
+              Don't have an account?
+            </p>
+            <p className="text-sm mb-2 text-sky-200 sm:text-xs">
+              Sign up now and get started!
             </p>
             <a
               href="#"
-              className="border-2 border-sky-200 rounded-full px-10 py-1.5 inline-block mt-2 transition-all hover:bg-sky-200 hover:text-sky-900"
+              className="border-2 sm:text-xs whitespace-nowrap border-sky-200 rounded-full px-4 py-1.5 inline-block mt-2 transition-all hover:bg-sky-200 hover:text-sky-900"
             >
               Sign Up
             </a>
