@@ -25,7 +25,7 @@ export const MessageBar = ({ onSendMessage }: Props) => {
   };
 
   return (
-    <div className="fixed bottom-0 left-0 bg-gray-500 border-t border-gray-300 py-2 px-4 flex items-center">
+    <div className="bottom-0 bg-gray-500 border-gray-300 flex">
       <input
         type="text"
         className="flex-1 border border-gray-400 rounded-md w-3/12 py-2 px-4 mr-2 text-sm focus:outline-none focus:border-blue-500"

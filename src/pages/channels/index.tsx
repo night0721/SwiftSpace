@@ -1,4 +1,4 @@
-import StatusCircle from "@/components/StatusCircle";
+import { StatusCircle } from "@/components/StatusCircle";
 
 const Messaging = () => {
   return (

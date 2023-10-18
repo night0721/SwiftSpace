@@ -29,13 +29,13 @@ export const UserDetailsBox = ({ avatar, username }: UserProps) => {
           <StatusCircle status="dnd" />
         </div>
         <button
-          className="rounded-full w-6 bg-red-600"
+          className="rounded-full w-12 bg-red-600"
           onClick={handleSettingsClick}
         >
           <RiSettings5Fill
             style={{
               color: "blue",
-              fontSize: "3em",
+              fontSize: "3rem",
             }}
           />
         </button>

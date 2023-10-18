@@ -1,6 +1,5 @@
-interface Status {
-  status: "online" | "offline" | "idle" | "dnd";
-}
+import { Status } from "../types/Status";
+
 export const StatusCircle = ({ status }: Status) => {
   return (
     <>

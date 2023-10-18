@@ -7,8 +7,8 @@ type Props = {
 
 export const MessageBox = ({ messages }: Props) => {
   return (
-    <div className="flex-1 bg-sky-200 overflow-y-auto my-3">
-      <div className="max-w-3xl mx-auto py-8">
+    <div className="flex flex-1 justify-end bg-sky-200 my-3">
+      <div className="max-w-3xl mr-24 py-8 min-w-max">
         <div className="bg-white-300 rounded-lg shadow-md p-6">
           {messages.map((msg, index) => (
             <div key={index} className="mb-4">
