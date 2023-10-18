@@ -12,7 +12,7 @@ type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout
 }
 
-export default function App({ Component, pageProps, router }: AppProps) {
+export default function App({ Component, pageProps, router }: AppPropsWithLayout) {
   return (
     <>
       <Head>
