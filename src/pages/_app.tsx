@@ -18,7 +18,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
       <Head>
         <meta name="viewport" content="width=device-width" />
       </Head>
-      <Layout Component={Component} pageProps={pageProps} />
+      <Layout Component={Component} pageProps={pageProps} router={router} />
     </>
   );
 }
