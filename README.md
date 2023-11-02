@@ -1,6 +1,6 @@
-# Swiftspace
+# SwiftSpace
 
-Swiftspace is designed to be a modern chat app using TailwindCSS and Next.js
+SwiftSpace is designed to be a modern chat app using TailwindCSS and Next.js
 
 ## Getting Started
 
